@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Marker5 : MonoBehaviour
+public class Marker10 : MonoBehaviour
 {
     TrailRenderer tr;
     // Start is called before the first frame update
@@ -10,7 +10,7 @@ public class Marker5 : MonoBehaviour
     {
         tr = GetComponent<TrailRenderer>();
         tr.enabled = false;
-        transform.position = PEQ.Freeth(0,20);
+        transform.position = PEQ.Rhodonea(0);
         tr.enabled = true;
     }
 
@@ -18,6 +18,6 @@ public class Marker5 : MonoBehaviour
     void Update()
     {
         float t = Time.time;
-        transform.position = PEQ.Freeth(t,20);
+        transform.position = PEQ.Rhodonea(t);
     }
 }

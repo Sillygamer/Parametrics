@@ -54,10 +54,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\PEQ\Marker1.cs" />
+    <Compile Include="Assets\PEQ\Marker10.cs" />
     <Compile Include="Assets\PEQ\Marker2.cs" />
     <Compile Include="Assets\PEQ\Marker3.cs" />
     <Compile Include="Assets\PEQ\Marker4.cs" />
     <Compile Include="Assets\PEQ\Marker5.cs" />
+    <Compile Include="Assets\PEQ\Marker6.cs" />
+    <Compile Include="Assets\PEQ\Marker7.cs" />
+    <Compile Include="Assets\PEQ\Marker8.cs" />
+    <Compile Include="Assets\PEQ\Marker9.cs" />
     <Compile Include="Assets\PEQ\PEQ.cs" />
   </ItemGroup>
   <ItemGroup>
